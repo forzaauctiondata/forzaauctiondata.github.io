@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="f978a731-f6d5-468a-9633-215a46acba4e" data-root-id="34436"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="34662">
+          {"5c9c7586-3973-49b9-8a7a-56bdd7c9dc43":{"defs":[],"roots":{"references":[{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"34461","type":"BoxAnnotation"},{"attributes":{},"id":"34443","type":"LinearScale"},{"attributes":{},"id":"34460","type":"HelpTool"},{"attributes":{},"id":"34455","type":"PanTool"},{"attributes":{"fill_color":"rgba(84, 198, 187, 0.2)","line_alpha":{"value":0.5},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"34488","type":"Circle"},{"attributes":{},"id":"34456","type":"WheelZoomTool"},{"attributes":{},"id":"34452","type":"BasicTicker"},{"attributes":{},"id":"34478","type":"AllLabels"},{"attributes":{"data":{"x":{"__ndarray__":"jx6NxAkDeEInXSnKDAN4Qljf6ngdA3hCx2VV1SIDeELTwxviJAN4QvCRAtApA3hCiV9Cqi0DeELH6QkOMwN4Qro3wnM2A3hCK6WrQzcDeEKyxZi6NwN4QqDExew3A3hCaBudyjsDeEI3/4HRPAN4Qh9B6h1BA3hCk2L+dl8DeELlCJ2iXwN4Qs3qyBxgA3hCzdQk3WADeEL+ijlYbAN4Qj0wqs5sA3hCrr9O3w8EeELwX5qFJQR4Qs8jbIIvBHhCZlawtzAEeEJK8BkfRQR4QgwEP1NZBHhCO0FZZFsEeEKqv9MhXAR4QroZaiZiBHhCRJdrU2IEeEKFj6DrawR4QnnL781uBHhC8E+HmG8EeEKmA38osAR4QmKGkcK1BHhCPaxtIrYEeEIvH1w6tgR4Qgz885S3BHhCuLq9GbkEeEL6fhnk5AR4Qq7nSGPnBHhCJwN46OoEeEKRLca47AR4Qi/ZZoDvBHhCXoLnRPAEeEI99rcUEQV4QhQ2yeEWBXhCeZWn8BcFeEJ3zl60GgV4Qh8J6r8eBXhCwRAxPyMFeEJ/Ds3kKAV4Qp4932sqBXhC55sdbSoFeELPs9RHLgV4Qu5sgAUwBXhCKfYxGzAFeEJv0NKFMAV4QssT3NQxBXhCYp78pTQFeEL0g07wNQV4Qm8QlIc9BXhCDu/leXcFeEK8ikmMeAV4QjH0Sw57BXhCyaYyrXwFeEJmiiw3fQV4QhnSgNyGBXhCiX3J74oFeEJefkcEjQV4Qtcn3GePBXhC/F9/RZIFeELVoEiElAV4QkS5+xCWBXhCGUTg8p8FeEJQGYTTrQV4Qok9N1CvBXhCIeSrhboFeEId9LjXvgV4QlLwc6u/BXhCvID+x80FeEJ3eFhI4AV4QvhFervgBXhCb2zTvuAFeEIXewo84wV4Qsl0dRjlBXhCJT5OIvQFeEInF1ZZ9QV4QjWc1+r1BXhC+COcKvgFeEIZSkuG/wV4QiunpNj/BXhCZCf77wMGeELbVaFrBwZ4QtPXI+oJBnhCP30o1TUGeEKRSUxMNgZ4Qgrz8Qk9BnhCyW42Cj4GeEKPPnMrQQZ4QvL+9i5BBnhCnjvMMkQGeEIz7QZ+RAZ4QphYgvFIBnhCnt/rIU0GeEKepwGJTwZ4Qt2WbWdQBnhC7PMa3VEGeEIIciGWUgZ4QhdhcadUBnhCkxBYyVcGeEIpTIVKWAZ4QliNR/xZBnhCe+rnAFoGeEKWTbm1XQZ4QrSmE1xeBnhCrpGc4F8GeEJqvDDzZAZ4QpjqlcBmBnhCpilYK2gGeELyvvYPcAZ4QvZ0oTVyBnhCRjrsT3MGeEI74S26kQZ4Qjd9agmbBnhCwwPTFZsGeEIvVSZYngZ4QhL/g1+gBnhCnCaoLqMGeEJ95b1vqwZ4QgJHXRGvBnhCjR29SbAGeEK4CnjDsAZ4QrQkeE2xBnhC","dtype":"float64","order":"little","shape":[135]},"y":{"__ndarray__":"GG0CAHhXAwBwEQEAWAkDAPinAABYCQMAcBEBAFgJAwBYmAAAeOABAOCTBACwrQEAoIYBAIC7AACAuwAAWAkDAFgJAwBg6gAA+KcAAIC7AABADQMAGG0CAIC7AACYqwIAWAkDACDFAQBwEQEAWJgAAHjmAAD4pwAAeOABAAjPAABYCQMA+KcAABhtAgBYmAAAyBoEAJirAgCYqwIAWAkDALCtAQCggAIAYOoAAFiYAABYmAAAWJgAAHhjAQCwrQEAUDQDAIA4AQB4VwMAgDgBALCtAQBQwwAAQJwAAIC7AABYmAAAWJgAALCtAQCAuwAAWAkDAHhXAwBYCQMAQA0DAKhbAQCghgEAsK0BAPBPAQB44AEAoIYBAOAoAQCghgEAWJgAAKCGAQCwMAEAWJgAAHjmAABYCQMAWAkDAIA4AQD4pwAAYOoAAFDDAABwEQEAUMMAAJirAgBYmAAAQA0DAFiYAACQXwEAUMMAAIgNAQB4VwMAsB4EAJifBABQwwAAeFcDAIA4AQD4pwAA+KcAAEANAwBYCQMAsK0BAHhXAwBYCQMAgLsAALCtAQAw8gAAsK0BAAjPAACAuwAAWJgAAOCTBABYmAAAkF8BAIC7AABADQMAWJgAAHhXAwBYCQMAgLsAAFgJAwD4pwAAWAkDACiOAwAIzwAAUMMAAPinAABYCQMAWJgAAGDqAABAGQEAeOYAACC5AwBoMAMA","dtype":"int32","order":"little","shape":[135]}},"selected":{"id":"34503"},"selection_policy":{"id":"34502"}},"id":"34487","type":"ColumnDataSource"},{"attributes":{"coordinates":null,"data_source":{"id":"34487"},"glyph":{"id":"34488"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"34490"},"nonselection_glyph":{"id":"34489"},"view":{"id":"34492"}},"id":"34491","type":"GlyphRenderer"},{"attributes":{},"id":"34458","type":"SaveTool"},{"attributes":{},"id":"34503","type":"Selection"},{"attributes":{},"id":"34441","type":"DataRange1d"},{"attributes":{},"id":"34448","type":"BasicTicker"},{"attributes":{},"id":"34439","type":"DataRange1d"},{"attributes":{"data":{"x":{"__ndarray__":"AjWT9QcDeEJ7vAFAIgN4QuxB1kkiA3hCZDe2XCYDeEJc36d5YwN4QmKq6vZxA3hCyTzGVyQEeEJSvKlmKAR4QqLPd5OfBHhCXFmek58EeELTHak2pAR4QphqlM+0BHhCwb609bQEeEKJ090iuQR4Qrzel0rYBHhCqgnmWvEEeELHe2lAEQV4QpN+0r4aBXhCFDKB1iQFeEKgVB44KAV4QoNgcd0wBXhCanInvzEFeEJK0IChMwV4QqQC9Fc2BXhCRqLJoTkFeELnKbgCOwV4QgRIG7I7BXhCP0H53nsFeEKN97RWfQV4QrKpPz+JBXhCXj4TXZAFeEKidXIRnwV4Qs9nH0ytBXhCDJLQua0FeELJrC8PtQV4QiHuhXa5BXhCiYPHw8YFeELwm37oxwV4QmJytZ3SBXhCMcDEudQFeEKLxAOu5gV4QmRLzxLnBXhCwcicMucFeEK67xNj6gV4QqxmXtHuBXhCQrbgtO8FeEId8tWv9AV4QlDHAUT8BXhCqPBFXP0FeEK27S1ABwZ4Qr6fcQw9BnhCqsNYOEAGeELwFaKnQQZ4Qg7pWt1IBnhC+mRK50sGeEJo9QHxTwZ4QtWO955YBnhCCHxcU1kGeEJmQPKXWQZ4QhcBH5FdBnhC7qraOGcGeEK+1xg0awZ4Qk5qQs1wBnhCOVSKDXMGeEICwylNmQZ4Qg==","dtype":"float64","order":"little","shape":[65]},"y":{"__ndarray__":"gK8CAJBlAACAOAEAkF8BAEANAwDgkwQAmLcAAKCMAACghgEAoIYBAEANAwBADQMAQA0DAKCGAQCghgEAAHECAJixAQAgTgAAAHECAABxAgBADQMAkGUAAEANAwBADQMAoIwAAPgYAwCAIAUAkNwBAICvAgAgTgAAYOoAAEANAwBg6gAAoIwAAABxAgA4OAMAkGUAAHCUAABADQMAQA0DAKhPAwCwrQEAQA0DAHARAQAgTgAAoIYBAJBlAADYWQAAoIYBALjzAwCArwIAQA0DACBOAAAgTgAAeOABANhZAACQXwEAkF8BALCtAQCwrQEAoIYBAJixAQCArwIAoIYBALgFAQA=","dtype":"int32","order":"little","shape":[65]}},"selected":{"id":"34483"},"selection_policy":{"id":"34482"}},"id":"34469","type":"ColumnDataSource"},{"attributes":{},"id":"34483","type":"Selection"},{"attributes":{"coordinates":null,"data_source":{"id":"34469"},"glyph":{"id":"34470"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"34472"},"nonselection_glyph":{"id":"34471"},"view":{"id":"34474"}},"id":"34473","type":"GlyphRenderer"},{"attributes":{"label":{"value":"$7"},"renderers":[{"id":"34491"}]},"id":"34505","type":"LegendItem"},{"attributes":{},"id":"34459","type":"ResetTool"},{"attributes":{"below":[{"id":"34447"}],"center":[{"id":"34450"},{"id":"34454"},{"id":"34485"}],"height":780,"left":[{"id":"34451"}],"renderers":[{"id":"34473"},{"id":"34491"}],"title":{"id":"34437"},"toolbar":{"id":"34462"},"width":1480,"x_range":{"id":"34439"},"x_scale":{"id":"34443"},"y_range":{"id":"34441"},"y_scale":{"id":"34445"}},"id":"34436","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgba(84, 198, 187, 0.2)","hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"34489","type":"Circle"},{"attributes":{},"id":"34477","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":"rgba(84, 198, 187, 0.2)","hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"34490","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgba(240, 28, 249, 0.2)","hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"34471","type":"Circle"},{"attributes":{"coordinates":null,"group":null,"text":"Car Auctions ::: Forza Horizon 5"},"id":"34437","type":"Title"},{"attributes":{"axis_label":"Time Saved","coordinates":null,"formatter":{"id":"34480"},"group":null,"major_label_policy":{"id":"34481"},"ticker":{"id":"34448"}},"id":"34447","type":"LinearAxis"},{"attributes":{"overlay":{"id":"34461"}},"id":"34457","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":"rgba(240, 28, 249, 0.2)","hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"34472","type":"Circle"},{"attributes":{"source":{"id":"34469"}},"id":"34474","type":"CDSView"},{"attributes":{"axis_label":"Winning Bid","coordinates":null,"formatter":{"id":"34477"},"group":null,"major_label_policy":{"id":"34478"},"ticker":{"id":"34452"}},"id":"34451","type":"LinearAxis"},{"attributes":{},"id":"34482","type":"UnionRenderers"},{"attributes":{},"id":"34445","type":"LinearScale"},{"attributes":{},"id":"34481","type":"AllLabels"},{"attributes":{"label":{"value":"$1"},"renderers":[{"id":"34473"}]},"id":"34486","type":"LegendItem"},{"attributes":{"axis":{"id":"34451"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"34454","type":"Grid"},{"attributes":{"tools":[{"id":"34455"},{"id":"34456"},{"id":"34457"},{"id":"34458"},{"id":"34459"},{"id":"34460"}]},"id":"34462","type":"Toolbar"},{"attributes":{"source":{"id":"34487"}},"id":"34492","type":"CDSView"},{"attributes":{"axis":{"id":"34447"},"coordinates":null,"group":null,"ticker":null},"id":"34450","type":"Grid"},{"attributes":{},"id":"34480","type":"BasicTickFormatter"},{"attributes":{"click_policy":"hide","coordinates":null,"group":null,"items":[{"id":"34486"},{"id":"34505"}],"title":"*!* click an item to show or hide data for that type of car *!*"},"id":"34485","type":"Legend"},{"attributes":{},"id":"34502","type":"UnionRenderers"},{"attributes":{"fill_color":"rgba(240, 28, 249, 0.2)","line_alpha":{"value":0.5},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"34470","type":"Circle"}],"root_ids":["34436"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('34662').textContent;
+                  const render_items = [{"docid":"5c9c7586-3973-49b9-8a7a-56bdd7c9dc43","root_ids":["34436"],"roots":{"34436":"f978a731-f6d5-468a-9633-215a46acba4e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

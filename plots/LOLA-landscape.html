@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1863c5c6-5ad6-4ece-bfba-f27bdff7f9bd" data-root-id="30753"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="30934">
+          {"268538b1-1b9f-4431-9cbc-d5bcd6b829e1":{"defs":[],"roots":{"references":[{"attributes":{},"id":"30756","type":"DataRange1d"},{"attributes":{"below":[{"id":"30764"}],"center":[{"id":"30767"},{"id":"30771"},{"id":"30802"}],"height":780,"left":[{"id":"30768"}],"renderers":[{"id":"30790"}],"title":{"id":"30754"},"toolbar":{"id":"30779"},"width":1480,"x_range":{"id":"30756"},"x_scale":{"id":"30760"},"y_range":{"id":"30758"},"y_scale":{"id":"30762"}},"id":"30753","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":"rgba(28, 110, 138, 0.2)","hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"30789","type":"Circle"},{"attributes":{},"id":"30800","type":"Selection"},{"attributes":{"click_policy":"hide","coordinates":null,"group":null,"items":[{"id":"30803"}],"title":"*!* click an item to show or hide data for that type of car *!*"},"id":"30802","type":"Legend"},{"attributes":{"fill_color":"rgba(28, 110, 138, 0.2)","line_alpha":{"value":0.5},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"30787","type":"Circle"},{"attributes":{"overlay":{"id":"30778"}},"id":"30774","type":"BoxZoomTool"},{"attributes":{},"id":"30769","type":"BasicTicker"},{"attributes":{},"id":"30772","type":"PanTool"},{"attributes":{},"id":"30758","type":"DataRange1d"},{"attributes":{"axis":{"id":"30764"},"coordinates":null,"group":null,"ticker":null},"id":"30767","type":"Grid"},{"attributes":{},"id":"30797","type":"BasicTickFormatter"},{"attributes":{},"id":"30795","type":"AllLabels"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"30778","type":"BoxAnnotation"},{"attributes":{"axis_label":"Winning Bid","coordinates":null,"formatter":{"id":"30794"},"group":null,"major_label_policy":{"id":"30795"},"ticker":{"id":"30769"}},"id":"30768","type":"LinearAxis"},{"attributes":{"tools":[{"id":"30772"},{"id":"30773"},{"id":"30774"},{"id":"30775"},{"id":"30776"},{"id":"30777"}]},"id":"30779","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgba(28, 110, 138, 0.2)","hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"size":{"value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"30788","type":"Circle"},{"attributes":{},"id":"30798","type":"AllLabels"},{"attributes":{},"id":"30777","type":"HelpTool"},{"attributes":{},"id":"30773","type":"WheelZoomTool"},{"attributes":{},"id":"30794","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"30786"}},"id":"30791","type":"CDSView"},{"attributes":{"axis_label":"Time Saved","coordinates":null,"formatter":{"id":"30797"},"group":null,"major_label_policy":{"id":"30798"},"ticker":{"id":"30765"}},"id":"30764","type":"LinearAxis"},{"attributes":{},"id":"30765","type":"BasicTicker"},{"attributes":{"data":{"x":{"__ndarray__":"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","dtype":"float64","order":"little","shape":[392]},"y":{"__ndarray__":"MG8BAAhMAQCYLgIAWAkDALCtAQCwrQEAmC4CADBvAQAITAEACEwBAAhMAQAITAEACEwBAAhMAQCQ3AEAmC4CAAhMAQBIZQIASGUCAJBfAQAITAEAoIYBAEANAwBIZQIASGUCADBvAQAITAEAoP0CAJBfAQAITAEAsK0BADjBAQAITAEAMF0EAKD9AgCghgEACEwBAKCGAQBQtwIACEwBAKCGAQAITAEAQJYBAECWAQAITAEAAO4CAEANAwBQtwIAsK0BAKCGAQBAlgEAoP0CAJguAgCg/QIAoP0CAFCxAwAwbwEAoP0CAFC3AgBQtwIAMG8BAAhMAQAITAEAoP0CAJguAgBIZQIACEwBALCtAQCQXwEAkF8BAKCGAQAITAEAULcCAKD9AgCghgEAmC4CADBvAQAITAEAQJYBAKD9AgCg/QIA0HIDALh2AwBIZQIAkF8BAAhMAQBIZQIACEwBALCtAQCwrQEACEwBAAhMAQBAlgEAsK0BAFC3AgBQtwIAkF8BAAhMAQBAlgEAQJYBADBvAQCghgEAoP0CAFC3AgCg/QIAsK0BALCtAQCwrQEAULcCAAhMAQAITAEACEwBAAhMAQAITAEAULcCAKCGAQCg/QIACEwBAAhMAQAITAEACEwBAAhMAQAITAEAsK0BADBvAQBQtwIACEwBAFC3AgCQXwEAoIYBAAhMAQBQtwIASGUCAAhMAQDYRwMACEwBAJBfAQBIZQIACEwBAJBfAQAITAEACEwBADBvAQCghgEAmC4CADBvAQAwbwEACEwBAAhMAQAITAEACEwBADBvAQBIZQIAMG8BAEhlAgAwbwEAMG8BAAhMAQAITAEACEwBAJguAgBAlgEAMG8BAKCGAQAITAEACEwBADBvAQBIZQIAkF8BAAhMAQAITAEAMG8BAAhMAQAITAEASGUCAAhMAQCYLgIACEwBAAhMAQBIZQIAEJIDAJBfAQCghgEACEwBADBvAQBI6AEAoIYBANhHAwAwbwEASOgBAAhMAQBIZQIACEwBAAhMAQBIZQIAMG8BAKCGAQBI6AEACEwBAEjoAQAITAEACEwBAJguAgBQvQEACEwBAAhMAQBI6AEACEwBAJguAgAITAEACEwBAAhMAQBIZQIAoIYBAKCGAQAITAEACEwBAMijAgBIZQIACEwBAAhMAQAITAEACEwBAAhMAQAITAEACEwBAJguAgAITAEAkF8BAEhlAgAITAEACEwBAAhMAQAguQMACEwBAAhMAQBIZQIAQJYBADBvAQCghgEAMG8BADBpAgAITAEACEwBADBvAQBIZQIACEwBAAhMAQCYsQEASGUCAAhMAQBIZQIACEwBAAhMAQCIAQMAsK0BAKCGAQBI6AEAMG8BAAhMAQAITAEAUL0BAKCGAQAwbwEASOgBAOCZAwAITAEAMG8BAEjoAQAITAEAoIYBAJBfAQCwrQEACEwBAAhMAQBYCQMACEwBALCtAQAITAEAGOoCAAhMAQBIZQIAmC4CAJBfAQBQvQEASOgBAKCGAQAITAEAMG8BAAhMAQBI6AEAUL0BAKCGAQAITAEAMG8BALCtAQDgHAMAMOwBADBpAgAITAEACEwBAEjoAQBwBQMAoIYBAAhMAQBI6AEAoIYBAJBfAQBwBQMAsK0BAEjoAQDwSQIAmC4CAPDAAwAITAEASGUCAAhMAQAITAEACEwBAAhMAQAwbwEACEwBAKCGAQBIZQIAMG8BADBvAQBIZQIACEwBAAhMAQCYLgIAUL0BAEhlAgAITAEACEwBAND1AgBQvQEAcIIDADBvAQAITAEAoIYBAAhMAQAITAEACEwBADBvAQAITAEACEwBAEhlAgCQXwEACEwBAAhMAQAITAEACEwBAAhMAQCQXwEAoIYBALCtAQCQXwEAUL0BALCtAQCghgEAMG8BAKCGAQCwrQEACEwBAAhMAQA4tQMASGUCAKCGAQAITAEAMOADAAhMAQAITAEASGUCAKCGAQAITAEAkF8BAJBfAQCwrQEACEwBAKCGAQAITAEACEwBAAhMAQBQvQEAmC4CAEjoAQAITAEAQJYBAAhMAQCwrQEAQJYBAECWAQA=","dtype":"int32","order":"little","shape":[392]}},"selected":{"id":"30800"},"selection_policy":{"id":"30799"}},"id":"30786","type":"ColumnDataSource"},{"attributes":{},"id":"30762","type":"LinearScale"},{"attributes":{"axis":{"id":"30768"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"30771","type":"Grid"},{"attributes":{"label":{"value":"#6 PENSKE SUNOCO T70 MKIIIB"},"renderers":[{"id":"30790"}]},"id":"30803","type":"LegendItem"},{"attributes":{"coordinates":null,"group":null,"text":"Car Auctions ::: Forza Horizon 5"},"id":"30754","type":"Title"},{"attributes":{},"id":"30760","type":"LinearScale"},{"attributes":{"coordinates":null,"data_source":{"id":"30786"},"glyph":{"id":"30787"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"30789"},"nonselection_glyph":{"id":"30788"},"view":{"id":"30791"}},"id":"30790","type":"GlyphRenderer"},{"attributes":{},"id":"30799","type":"UnionRenderers"},{"attributes":{},"id":"30776","type":"ResetTool"},{"attributes":{},"id":"30775","type":"SaveTool"}],"root_ids":["30753"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('30934').textContent;
+                  const render_items = [{"docid":"268538b1-1b9f-4431-9cbc-d5bcd6b829e1","root_ids":["30753"],"roots":{"30753":"1863c5c6-5ad6-4ece-bfba-f27bdff7f9bd"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
