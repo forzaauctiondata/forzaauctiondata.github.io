@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="4f8de916-19c0-4304-99d9-4c0e45984674" data-root-id="33806"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="33943">
+          {"7d18aedb-cdbe-40c6-85b6-5a90d75b233f":{"defs":[],"roots":{"references":[{"attributes":{},"id":"33830","type":"HelpTool"},{"attributes":{"below":[{"id":"33817"}],"center":[{"id":"33820"},{"id":"33824"}],"height":780,"left":[{"id":"33821"}],"title":{"id":"33807"},"toolbar":{"id":"33832"},"width":1480,"x_range":{"id":"33809"},"x_scale":{"id":"33813"},"y_range":{"id":"33811"},"y_scale":{"id":"33815"}},"id":"33806","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"33825","type":"PanTool"},{"attributes":{},"id":"33813","type":"LinearScale"},{"attributes":{},"id":"33844","type":"BasicTickFormatter"},{"attributes":{},"id":"33822","type":"BasicTicker"},{"attributes":{},"id":"33845","type":"AllLabels"},{"attributes":{"coordinates":null,"group":null,"text":"NOBLE Auctions ::: Forza Horizon 5"},"id":"33807","type":"Title"},{"attributes":{"tools":[{"id":"33825"},{"id":"33826"},{"id":"33827"},{"id":"33828"},{"id":"33829"},{"id":"33830"}]},"id":"33832","type":"Toolbar"},{"attributes":{"axis":{"id":"33817"},"coordinates":null,"group":null,"ticker":null},"id":"33820","type":"Grid"},{"attributes":{"overlay":{"id":"33831"}},"id":"33827","type":"BoxZoomTool"},{"attributes":{},"id":"33818","type":"BasicTicker"},{"attributes":{},"id":"33811","type":"DataRange1d"},{"attributes":{},"id":"33809","type":"DataRange1d"},{"attributes":{},"id":"33815","type":"LinearScale"},{"attributes":{"axis_label":"Winning Bid","coordinates":null,"formatter":{"id":"33841"},"group":null,"major_label_policy":{"id":"33842"},"ticker":{"id":"33822"}},"id":"33821","type":"LinearAxis"},{"attributes":{},"id":"33842","type":"AllLabels"},{"attributes":{},"id":"33826","type":"WheelZoomTool"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"33831","type":"BoxAnnotation"},{"attributes":{"axis_label":"Time Saved","coordinates":null,"formatter":{"id":"33844"},"group":null,"major_label_policy":{"id":"33845"},"ticker":{"id":"33818"}},"id":"33817","type":"LinearAxis"},{"attributes":{},"id":"33841","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"33821"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"33824","type":"Grid"},{"attributes":{},"id":"33829","type":"ResetTool"},{"attributes":{},"id":"33828","type":"SaveTool"}],"root_ids":["33806"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('33943').textContent;
+                  const render_items = [{"docid":"7d18aedb-cdbe-40c6-85b6-5a90d75b233f","root_ids":["33806"],"roots":{"33806":"4f8de916-19c0-4304-99d9-4c0e45984674"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
