@@ -1,0 +1,19 @@
+User-agent: *
+
+Disallow: /assets/
+
+User-agent: Googlebot
+
+Allow: /
+
+User-agent: Mediapartners-Google
+
+Allow: /
+
+User-agent: Adsbot-Google
+
+Allow: /
+
+User-agent: Bingbot
+
+Allow: /
