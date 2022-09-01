@@ -66,9 +66,13 @@ footer {
 
 .section_heading {
   color: var(--bs-white);
-  background: var(--bs-gray-500);
+  background: var(--bs-gray-600);
   border-radius: 4px;
   padding: 6px;
   font-weight: bold;
+}
+
+.list_icon {
+  color: var(--bs-gray-700);
 }
 
